@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+/* Vertical menu */
+
+
+/* .icon-bar{
+    width: 90px;
+    background-color:#555 ;
+}
+.icon-bar a{
+    display: block;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    font-size: 2rem;
+}
+.active{
+    background-color:#04AA6D ;
+}
+ 
+
+.icon-bar a:hover{
+    background-color:#000 ;
+} */
+
+
+.icon-bar{
+    width: 100%;
+    background-color:#555 ;
+    overflow: auto;
+}
+.icon-bar a{
+    float: left;
+    width: 20%;
+    padding: 12px 0;
+   text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.active{
+    background-color:#04AA6D ;
+}
+
+.icon-bar a:hover{
+    background-color: #000;
+}
